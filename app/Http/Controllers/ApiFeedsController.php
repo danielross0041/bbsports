@@ -29,4 +29,8 @@ class ApiFeedsController extends Controller
 			echo "New Feeds uploaded";
 		}
     }
+    public function nonbe($value='')
+    {
+    	dd("here");
+    }
 }
